@@ -4,8 +4,9 @@ import torch
 from typing import List
 import comfy.sample
 from comfy import model_base, model_management
-from comfy.samplers import KSampler, CompVisVDenoiser, KSamplerX0Inpaint
-from comfy.k_diffusion.external import CompVisDenoiser
+# from comfy.samplers import KSampler, CompVisVDenoiser, KSamplerX0Inpaint
+from comfy.samplers import KSampler, KSamplerX0Inpaint
+# from comfy.k_diffusion.external import CompVisDenoiser
 import nodes
 import inspect
 import functools
